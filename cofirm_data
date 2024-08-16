@@ -4,3 +4,8 @@ heart_data = pd.read_csv('heart.csv')
 # 데이터 확인
 print(heart_data.head())
 print(heart_data.info())
+
+
+# 결측치 확인
+print(heart_data.isnull().sum())
+print(heart_data.describe())

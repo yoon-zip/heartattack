@@ -1,0 +1,6 @@
+# 데이터 불러오기
+heart_data = pd.read_csv('heart.csv')
+
+# 데이터 확인
+print(heart_data.head())
+print(heart_data.info())
